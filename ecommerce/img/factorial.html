@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let fact;
+      n = 10;
+      function factorial(n) {
+        if (n == 1 || n == 0) {
+          return (fact = 1);
+        } else {
+          return (fact = n * factorial(n - 1));
+        }
+      }
+      factorial(n);
+      console.log(fact);
+    </script>
+  </body>
+</html>
